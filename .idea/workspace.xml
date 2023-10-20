@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="getters and setters">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaz/Actividades_Empleado_venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Actividades_Empleado_venta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interfaz/Inicio_Ventas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Inicio_Ventas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaz/inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persona/Login/AuthenticationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona/Login/AuthenticationSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,20 @@
       <recent name="C:\Users\prada\IdeaProjects\ProyectoIngenieriaDeSoftware\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Inicio_Inventario">
+  <component name="RunManager" selected="Application.Actividades_Empleado_venta">
+    <configuration name="Actividades_Empleado_venta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Actividades_Empleado_venta" />
+      <module name="ProyectoIngenieriaDeSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Inicio_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interfaz.Inicio_Inventario" />
       <module name="ProyectoIngenieriaDeSoftware" />
@@ -101,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Venta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Venta" />
-      <module name="ProyectoIngenieriaDeSoftware" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interfaz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Actividades_Empleado_venta" />
+        <item itemvalue="Application.Inicio_Ventas" />
         <item itemvalue="Application.Inicio_Inventario" />
         <item itemvalue="Application.Registro_De_Compras" />
         <item itemvalue="Application.Reporte" />
-        <item itemvalue="Application.Venta" />
-        <item itemvalue="Application.Inicio_Ventas" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697831073083</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="getters and setters">
+      <created>1697833568637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697833568637</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
