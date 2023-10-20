@@ -8,7 +8,7 @@ public class Inventario {
         this.id = id;
         this.stock = stock; // Inicializa el stock al crear una instancia de Inventario
     }
-
+//
     public Inventario() {
         this.id = 0; //
         this.stock = 0; // Inicializa el stock en 0 al crear una instancia de Inventario

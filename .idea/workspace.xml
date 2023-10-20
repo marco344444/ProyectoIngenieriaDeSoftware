@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="ajuste compra, venta, factura">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura">
       <change beforePath="$PROJECT_DIR$/src/Facturacion/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facturacion/Factura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inventario/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventario/Inventario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697814736398</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura">
+      <created>1697829548630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697829548630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ajuste compra, venta, factura" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste compra, venta, factura" />
+    <MESSAGE value="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura" />
+    <option name="LAST_COMMIT_MESSAGE" value="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura" />
   </component>
 </project>

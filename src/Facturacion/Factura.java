@@ -15,6 +15,7 @@ public class Factura {
     public Factura() {
     }
 
+    //
     public Factura(int id, Venta venta,  Date fechaEmision, String detallesn, double totalFactura) {
         this.id = id;
         this.venta = venta;
