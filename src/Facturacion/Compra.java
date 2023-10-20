@@ -13,6 +13,17 @@ public class Compra {
     public Date fechaCompra;
     public double totalCompra;
 
+    @Override
+    public String toString() {
+        return "Compra{" +
+                "id=" + id +
+                ", trabajador=" + trabajador +
+                ", proveedor=" + proveedor +
+                ", fechaCompra=" + fechaCompra +
+                ", totalCompra=" + totalCompra +
+                '}';
+    }
+
     public Compra() {
     }
 

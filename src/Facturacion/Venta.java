@@ -23,4 +23,15 @@ public class Venta {
         this.fechaVenta = fechaVenta;
         this.totalVenta = totalVenta;
     }
+
+    @Override
+    public String toString() {
+        return "Venta{" +
+                "id=" + id +
+                ", trabajador=" + trabajador +
+                ", cliente=" + cliente +
+                ", fechaVenta=" + fechaVenta +
+                ", totalVenta=" + totalVenta +
+                '}';
+    }
 }
