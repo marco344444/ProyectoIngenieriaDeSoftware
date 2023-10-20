@@ -1,24 +1,37 @@
 package Facturacion;
 
+import Inventario.Productos;
+
 import java.util.Date;
 
 public class Factura {
 
-    private int id;
-    private Venta venta;
-    private Date fechaEmision;
-    private String detalles;
-    private double totalFactura;
+    public int id;
+    public Venta venta;
+    public Date fechaEmision;
+    public String detalles;
+    public double totalFactura;
 
     public Factura() {
     }
 
-    public Factura(int id, Venta venta, Date fechaEmision, String detalles, double totalFactura) {
+    public Factura(int id, Venta venta,  Date fechaEmision, String detallesn, double totalFactura) {
         this.id = id;
         this.venta = venta;
         this.fechaEmision = fechaEmision;
         this.detalles = detalles;
-        this.totalFactura = totalFactura;
+        this.totalFactura = 0; // Inicialmente la factura está vacía
+    }
+    public void agregarVenta(Productos producto, int cantidad) {
+        // Aquí puedes calcular el costo del producto y agregarlo a la factura
+        double costo = producto.getPrecioUnitario() * cantidad;
+        totalFactura += costo;
+    }
+
+    public void agregarCompra(Productos producto, int cantidad) {
+        // Aquí puedes calcular el costo del producto y agregarlo a la factura
+        double costo = producto.getPrecioUnitario() * cantidad;
+        totalFactura += costo;
     }
 
     public int getId() {
