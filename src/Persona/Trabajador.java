@@ -14,6 +14,22 @@ public class Trabajador extends Persona {
         this.fechaContratacion = fechaContratacion;
     }
 
+    public String getTipoTrabajador() {
+        return tipoTrabajador;
+    }
+
+    public void setTipoTrabajador(String tipoTrabajador) {
+        this.tipoTrabajador = tipoTrabajador;
+    }
+
+    public Date getFechaContratacion() {
+        return fechaContratacion;
+    }
+
+    public void setFechaContratacion(Date fechaContratacion) {
+        this.fechaContratacion = fechaContratacion;
+    }
+
     @Override
     public String toString() {
         return "Trabajador{" +
