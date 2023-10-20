@@ -42,4 +42,13 @@ public class AuthenticationSystem {
         // Autenticación fallida
         return false;
     }
+    public Trabajador getTrabajador(String nombreUsuario) {
+        for (Usuario usuario : usuarios) {
+            if (usuario.nombreUsuario.equals(nombreUsuario)) {
+                return usuario.getTrabajador();
+            }
+        }
+        return null; // Si no se encuentra el usuario
+    }
+
 }
