@@ -16,7 +16,15 @@ public class Trabajador extends Persona {
 
     @Override
     public String toString() {
-        return String.format("Trabajador(id=%d, nombre=%s, apellido=%s, direccion=%s, telefono=%s, correoElectronico=%s, tipoTrabajador=%s, fechaContratacion=%s)",
-                id, nombre, apellido, direccion, telefono, correoElectronico, tipoTrabajador, fechaContratacion);
+        return "Trabajador{" +
+                "tipoTrabajador='" + tipoTrabajador + '\'' +
+                ", fechaContratacion=" + fechaContratacion +
+                ", id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", correoElectronico='" + correoElectronico + '\'' +
+                '}';
     }
 }

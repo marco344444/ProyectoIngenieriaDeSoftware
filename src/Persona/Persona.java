@@ -19,7 +19,13 @@ public class Persona {
 
     @Override
     public String toString() {
-        return String.format("Persona(id=%d, nombre=%s, apellido=%s, direccion=%s, telefono=%s, correoElectronico=%s)",
-                id, nombre, apellido, direccion, telefono, correoElectronico);
+        return "Persona{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", correoElectronico='" + correoElectronico + '\'' +
+                '}';
     }
 }
