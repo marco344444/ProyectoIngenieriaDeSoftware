@@ -98,8 +98,8 @@ public class Inicio_Ventas extends JFrame {
 				String contrasena = new String(Contraseña.getPassword());
 
 				if (usuario.equals("caja") && contrasena.equals("caja123")) {
-					// Si el usuario y contraseña son correctos para caja, redirigir a la ventana de actividades de empleado
-					Actividades_Empleado newframe = new Actividades_Empleado();
+					// Si el usuario y contraseña son correctos para caja, redirigir a la ventana de actividades de ventas
+					Actividades_Empleado_venta newframe = new Actividades_Empleado_venta();
 					newframe.setVisible(true);
 					dispose(); // Cierra la ventana actual
 				} else {
