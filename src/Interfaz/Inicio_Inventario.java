@@ -4,14 +4,8 @@ import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
 
 public class Inicio_Inventario extends JFrame {
 
@@ -98,8 +92,24 @@ public class Inicio_Inventario extends JFrame {
 		Inicio_Empleado_Inventario.setIcon(new ImageIcon(Inicio_Inventario.class.getResource("/paquetito/Imagenes/Inicio_Empleado_I.jpg")));
 		Inicio_Empleado_Inventario.setBounds(0, 0, 1300, 731);
 		contentPane.add(Inicio_Empleado_Inventario);
-		
-		
+
+		Ingresar.addActionListener(new ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
+				// Validar el usuario aquí
+				String usuario = ID.getText();
+				String contrasena = new String(Contraseña.getPassword());
+
+				if (usuario.equals("bodega") && contrasena.equals("bodega123")) {
+					// Si el usuario y contraseña son correctos para bodega, redirigir a la ventana de actividades de empleado
+					Actividades_Empleado newframe = new Actividades_Empleado();
+					newframe.setVisible(true);
+					dispose(); // Cierra la ventana actual
+				} else {
+					// Muestra una ventana de "Usuario no válido"
+					JOptionPane.showMessageDialog(null, "Usuario no válido", "Error", JOptionPane.ERROR_MESSAGE);
+				}
+			}
+		});
 		
 		
 		

@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura">
-      <change beforePath="$PROJECT_DIR$/src/Facturacion/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facturacion/Factura.java" afterDir="false" />
+    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="getters and setters">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaz/Inicio_Ventas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Inicio_Ventas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaz/inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/inicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persona/Login/AuthenticationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona/Login/AuthenticationSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,24 +30,100 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
   <component name="ProjectId" id="2X04SjB0VhldMeoJnr3UwoxRlN7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prada\IdeaProjects\ProyectoIngenieriaDeSoftware\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Inicio_Inventario">
+    <configuration name="Inicio_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Inicio_Inventario" />
+      <module name="ProyectoIngenieriaDeSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inicio_Ventas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Inicio_Ventas" />
+      <module name="ProyectoIngenieriaDeSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registro_De_Compras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Registro_De_Compras" />
+      <module name="ProyectoIngenieriaDeSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Reporte" />
+      <module name="ProyectoIngenieriaDeSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Venta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Venta" />
+      <module name="ProyectoIngenieriaDeSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Inicio_Inventario" />
+        <item itemvalue="Application.Registro_De_Compras" />
+        <item itemvalue="Application.Reporte" />
+        <item itemvalue="Application.Venta" />
+        <item itemvalue="Application.Inicio_Ventas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,35 +133,49 @@
       <option name="presentableId" value="Default" />
       <updated>1697752664968</updated>
     </task>
-    <task id="LOCAL-00001" summary="ajuste compra, venta, factura">
-      <created>1697813350997</created>
+    <task id="LOCAL-00001" summary="xd">
+      <created>1697823000695</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1697813350997</updated>
+      <updated>1697823000695</updated>
     </task>
-    <task id="LOCAL-00002" summary="ajuste compra, venta, factura">
-      <created>1697814501872</created>
+    <task id="LOCAL-00002" summary="pruebasxd">
+      <created>1697828500953</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1697814501872</updated>
+      <updated>1697828500953</updated>
     </task>
-    <task id="LOCAL-00003" summary="ajuste compra, venta, factura">
-      <created>1697814736398</created>
+    <task id="LOCAL-00003" summary="pruebasxd">
+      <created>1697830302344</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1697814736398</updated>
+      <updated>1697830302344</updated>
     </task>
-    <task id="LOCAL-00004" summary="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura">
-      <created>1697829548630</created>
+    <task id="LOCAL-00004" summary="interfaz">
+      <created>1697830971645</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1697829548630</updated>
+      <updated>1697830971645</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="getters and setters">
+      <created>1697831041012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697831041012</updated>
+    </task>
+    <task id="LOCAL-00006" summary="getters and setters">
+      <created>1697831073083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697831073083</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,9 +190,21 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ajuste compra, venta, factura" />
-    <MESSAGE value="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura" />
-    <option name="LAST_COMMIT_MESSAGE" value="facturacion, cuando se compre un producto o se vende se acomode el inventario y se cree factura" />
+    <MESSAGE value="xd" />
+    <MESSAGE value="pruebasxd" />
+    <MESSAGE value="interfaz" />
+    <MESSAGE value="getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="getters and setters" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interfaz/Factura.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
