@@ -60,14 +60,16 @@ public class Actividades_Empleado_venta extends JFrame {
 		Venta.setBounds(84, 270, 505, 110);
 		contentPane.add(Venta);
 
+		// Agrega un ActionListener al botón "venta"
 		Venta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent evt) {
-				Devoluciones devolucionesFrame = new Devoluciones();
-				devolucionesFrame.setVisible(true);
+				Venta ventaFrame = new Venta();
+				ventaFrame.setVisible(true);
 				// Cierra el frame actual si es necesario
 				dispose();
 			}
 		});
+
 
 		JButton Devoluciones = new JButton("");
 		Devoluciones.setBorder(null);
