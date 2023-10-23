@@ -56,7 +56,7 @@ public class Venta extends JFrame {
 
         Atras.addActionListener(new ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Actividades_Empleado newframe = new Actividades_Empleado();
+                Actividades_Empleado_venta newframe = new Actividades_Empleado_venta();
                 newframe.setVisible(true);
                 dispose();
             }

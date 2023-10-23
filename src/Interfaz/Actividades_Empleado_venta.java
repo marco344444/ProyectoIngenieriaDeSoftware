@@ -60,11 +60,30 @@ public class Actividades_Empleado_venta extends JFrame {
 		Venta.setBounds(84, 270, 505, 110);
 		contentPane.add(Venta);
 
+		Venta.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent evt) {
+				Devoluciones devolucionesFrame = new Devoluciones();
+				devolucionesFrame.setVisible(true);
+				// Cierra el frame actual si es necesario
+				dispose();
+			}
+		});
+
 		JButton Devoluciones = new JButton("");
 		Devoluciones.setBorder(null);
 		Devoluciones.setIcon(new ImageIcon(Actividades_Empleado_venta.class.getResource("/paquetito/Botones/Devoluciones.jpg")));
 		Devoluciones.setBounds(92, 408, 500, 110);
 		contentPane.add(Devoluciones);
+
+		// Agrega un ActionListener al botón "Devoluciones"
+		Devoluciones.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent evt) {
+				Devoluciones devolucionesFrame = new Devoluciones();
+				devolucionesFrame.setVisible(true);
+				// Cierra el frame actual si es necesario
+				dispose();
+			}
+		});
 
 		JLabel Actividades_Venta = new JLabel("");
 		Actividades_Venta.setBounds(0, 0, 1300, 731);

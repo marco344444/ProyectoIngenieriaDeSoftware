@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="getters and setters">
+    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_10_12_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_10_12_52__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interfaz/Actividades_Empleado_venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Actividades_Empleado_venta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaz/Inicio_Ventas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Inicio_Ventas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +30,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2X04SjB0VhldMeoJnr3UwoxRlN7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inicio_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Inicio_Inventario" />
+    <configuration name="Devoluciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Devoluciones" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Reporte" />
+    <configuration name="Venta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Venta" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -114,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Actividades_Empleado_venta" />
+        <item itemvalue="Application.Venta" />
+        <item itemvalue="Application.Devoluciones" />
         <item itemvalue="Application.Inicio_Ventas" />
-        <item itemvalue="Application.Inicio_Inventario" />
         <item itemvalue="Application.Registro_De_Compras" />
-        <item itemvalue="Application.Reporte" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +214,16 @@
           <url>file://$PROJECT_DIR$/src/Interfaz/Factura.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interfaz/Registro_De_Compras.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interfaz/Venta.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
