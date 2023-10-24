@@ -97,5 +97,29 @@ public class Actividades_Empleado extends JFrame {
 		Actvidades_Empleado_I.setBounds(0, 0, 1300, 731);
 		Actvidades_Empleado_I.setIcon(new ImageIcon(Actividades_Empleado.class.getResource("/paquetito/Imagenes/Actividades_Inventario.jpg")));
 		contentPane.add(Actvidades_Empleado_I);
+		Registro_De_Compras.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Registro_De_Compras registroComprasFrame = new Registro_De_Compras();
+				registroComprasFrame.setVisible(true);
+				dispose(); // Cierra la ventana actual
+			}
+		});
+		Reporte.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Reporte reporteFrame = new Reporte();
+				reporteFrame.setVisible(true);
+				dispose(); // Cierra la ventana actual
+			}
+		});
+		Actualizar_Inventario.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Act_Inventario newframe = new Act_Inventario();
+				newframe.setVisible(true);
+				dispose(); // Cierra la ventana actual
+			}
+		});
+
+
+
 	}
 }

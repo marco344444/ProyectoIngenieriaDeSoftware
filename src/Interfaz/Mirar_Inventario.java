@@ -44,11 +44,12 @@ public class Mirar_Inventario extends JFrame {
         Atras.setBorder(null);
         Atras.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
-                Actividades_Empleado newframe = new Actividades_Empleado();
+                Actvidades_Admin newframe = new Actvidades_Admin();
                 newframe.setVisible(true);
                 dispose();
             }
         });
+
         Atras.setIcon(new ImageIcon(Mirar_Inventario.class.getResource("/paquetito/Botones/Atrás.jpg")));
         Atras.setBounds(10, 24, 81, 23);
         contentPane.add(Atras);
