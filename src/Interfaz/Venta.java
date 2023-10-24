@@ -153,8 +153,12 @@ public class Venta extends JFrame {
         Generar_Venta = new JButton("New button");
         Generar_Venta.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                Factura facturaFrame = new Factura();
+                facturaFrame.setVisible(true);
+                dispose();
             }
         });
+
         Generar_Venta.setBorder(null);
         Generar_Venta.setIcon(new ImageIcon(Venta.class.getResource("/paquetito/Botones/Generarr_Factura_Electronica.jpg")));
         Generar_Venta.setBounds(866, 609, 365, 83);
