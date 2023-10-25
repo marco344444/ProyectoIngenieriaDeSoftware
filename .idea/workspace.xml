@@ -4,17 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="botones para venta y devolucion del empleado caja (venta)">
+    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="completamente acoplada la interfaz :D">
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/Devoluciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/Inventario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/Proveedores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/clientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/compras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/contro_de_Devoluciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/facturas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/reportes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/tabajadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/tipodetrabajador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/ventas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/clientes.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/compra.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/controldedevoluciones.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/devoluciones.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/factura.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/inventario.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/proveedores.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/reportes.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/tipo_de_trabajador.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/trabajadores.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ferreteria_proyecto/venta.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaz/Actividades_Empleado_venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Actividades_Empleado_venta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,28 +48,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
   <component name="ProjectId" id="2X04SjB0VhldMeoJnr3UwoxRlN7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/prada/IdeaProjects/ProyectoIngenieriaDeSoftware/src"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\prada\IdeaProjects\ProyectoIngenieriaDeSoftware\src" />
+      <recent name="C:\Users\prada\IdeaProjects\ProyectoIngenieriaDeSoftware\src\paquetito\Botones" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\prada\IdeaProjects\ProyectoIngenieriaDeSoftware\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Actividades_Empleado_venta">
+  <component name="RunManager" selected="Application.Mirar_Inventario">
     <configuration name="Act_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interfaz.Act_Inventario" />
       <module name="ProyectoIngenieriaDeSoftware" />
@@ -64,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Actividades_Empleado_venta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Actividades_Empleado_venta" />
+    <configuration name="Actividades_Empleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Actividades_Empleado" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Devoluciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Devoluciones" />
+    <configuration name="Adm_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Adm_Inventario" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inicio_Ventas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Inicio_Ventas" />
+    <configuration name="Mirar_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Mirar_Inventario" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Venta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Venta" />
+    <configuration name="Reporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Reporte" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Actividades_Empleado_venta" />
+        <item itemvalue="Application.Mirar_Inventario" />
+        <item itemvalue="Application.Actividades_Empleado" />
         <item itemvalue="Application.Act_Inventario" />
-        <item itemvalue="Application.Devoluciones" />
-        <item itemvalue="Application.Venta" />
-        <item itemvalue="Application.Inicio_Ventas" />
+        <item itemvalue="Application.Adm_Inventario" />
+        <item itemvalue="Application.Reporte" />
       </list>
     </recent_temporary>
   </component>
@@ -184,14 +205,35 @@
       <option name="project" value="LOCAL" />
       <updated>1697833568637</updated>
     </task>
-    <task id="LOCAL-00008" summary="botones para venta y devolucion del empleado caja (venta)">
-      <created>1698019661426</created>
+    <task id="LOCAL-00008" summary="acoplada toda la interfaz de admin, falta corregir un error con la interfaz de mostrar inventario, pero de resto gud">
+      <created>1698038948805</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1698019661426</updated>
+      <updated>1698038948805</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="se arregla el error en el boton de generar factura.">
+      <created>1698159424503</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698159424503</updated>
+    </task>
+    <task id="LOCAL-00010" summary="se arregla el error en el boton de generar factura.">
+      <created>1698159605220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698159605220</updated>
+    </task>
+    <task id="LOCAL-00011" summary="completamente acoplada la interfaz :D">
+      <created>1698162847728</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698162847728</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,8 +252,10 @@
     <MESSAGE value="pruebasxd" />
     <MESSAGE value="interfaz" />
     <MESSAGE value="getters and setters" />
-    <MESSAGE value="botones para venta y devolucion del empleado caja (venta)" />
-    <option name="LAST_COMMIT_MESSAGE" value="botones para venta y devolucion del empleado caja (venta)" />
+    <MESSAGE value="acoplada toda la interfaz de admin, falta corregir un error con la interfaz de mostrar inventario, pero de resto gud" />
+    <MESSAGE value="se arregla el error en el boton de generar factura." />
+    <MESSAGE value="completamente acoplada la interfaz :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="completamente acoplada la interfaz :D" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,14 +266,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Interfaz/Registro_De_Compras.java</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/src/Interfaz/Reporte.java</url>
+          <line>17</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Interfaz/Venta.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
