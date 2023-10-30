@@ -1,18 +1,10 @@
 package Interfaz;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import java.awt.Color;
-import java.awt.event.ActionListener;
-import javax.swing.SwingConstants;
+import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 public class Act_Inventario extends JFrame {
 
 	private static final long serialVersionUID = 1L;
@@ -66,7 +58,7 @@ public class Act_Inventario extends JFrame {
 		 Atras = new JButton("");
 		 Atras.setBorder(null);
 		Atras.addActionListener(new ActionListener() {
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
+			public void actionPerformed(ActionEvent evt) {
 				Actividades_Empleado newframe = new Actividades_Empleado();
 				newframe.setVisible(true);
 				dispose();

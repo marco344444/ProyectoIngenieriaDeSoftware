@@ -1,16 +1,10 @@
 package Interfaz;
 
-import java.awt.EventQueue;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JTextField;
 
 public class Proveedores extends JFrame {
 
@@ -54,7 +48,7 @@ public class Proveedores extends JFrame {
 		JButton Atrás = new JButton("");
 		Atrás.setBorder(null);
 		Atrás.addActionListener(new ActionListener() {
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
+			public void actionPerformed(ActionEvent evt) {
 				Actvidades_Admin newframe = new Actvidades_Admin();
 				newframe.setVisible(true);
 				dispose();
@@ -92,12 +86,14 @@ public class Proveedores extends JFrame {
 		contentPane.add(BotonBuscar);
 		
 		Añadir_Proveedor = new JButton("New button");
+		Añadir_Proveedor.setBorder(null);
 		Añadir_Proveedor.setIcon(new ImageIcon(Proveedores.class.getResource("/paquetito/Botones/Añadir_Proveedor.jpg")));
 		Añadir_Proveedor.setBounds(391, 578, 389, 47);
 		contentPane.add(Añadir_Proveedor);
 		
 
 		Eliminar_Proveedor = new JButton("New button");
+		Eliminar_Proveedor.setBorder(null);
 		Eliminar_Proveedor.setIcon(new ImageIcon(Proveedores.class.getResource("/paquetito/Botones/Eliminar_Proveedor.jpg")));
 		Eliminar_Proveedor.setBounds(862, 578, 383, 47);
 		contentPane.add(Eliminar_Proveedor);

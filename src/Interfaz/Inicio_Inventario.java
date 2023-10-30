@@ -1,11 +1,10 @@
 package Interfaz;
 
-import java.awt.Color;
-import java.awt.EventQueue;
-import java.awt.event.ActionListener;
-
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Inicio_Inventario extends JFrame {
 
@@ -55,12 +54,13 @@ public class Inicio_Inventario extends JFrame {
 		contentPane.add(Contraseña);
 		
 		Admin = new JButton("");
+		Admin.setBorder(null);
 		Admin.setIcon(new ImageIcon(Inicio_Inventario.class.getResource("/paquetito/Botones/Admin.jpg")));
 		Admin.setBounds(738, 52, 165, 52);
 		contentPane.add(Admin);
 		
 		Admin.addActionListener(new ActionListener() {
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
+			public void actionPerformed(ActionEvent evt) {
 				inicio newframe = new inicio();
 				newframe.setVisible(true);
 				dispose();
@@ -69,12 +69,13 @@ public class Inicio_Inventario extends JFrame {
 		});
 		
 		Empleado_V = new JButton("");
+		Empleado_V.setBorder(null);
 		Empleado_V.setIcon(new ImageIcon(Inicio_Inventario.class.getResource("/paquetito/Botones/Empleado_V.jpg")));
 		Empleado_V.setBounds(1085, 52, 157, 51);
 		contentPane.add(Empleado_V);
 		
 		Empleado_V.addActionListener(new ActionListener() {
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
+			public void actionPerformed(ActionEvent evt) {
 				Inicio_Ventas newframe = new Inicio_Ventas();
 				newframe.setVisible(true);
 				dispose();
@@ -83,6 +84,14 @@ public class Inicio_Inventario extends JFrame {
 		});
 		
 		Ingresar = new JButton("New button");
+		Ingresar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent evt) {
+				Actividades_Empleado newframe = new Actividades_Empleado();
+				newframe.setVisible(true);
+				dispose();
+				
+			}
+		});
 		Ingresar.setBorder(null);
 		Ingresar.setIcon(new ImageIcon(Inicio_Inventario.class.getResource("/paquetito/Botones/Ingresar.jpg")));
 		Ingresar.setBounds(894, 468,213 , 64);
@@ -92,24 +101,8 @@ public class Inicio_Inventario extends JFrame {
 		Inicio_Empleado_Inventario.setIcon(new ImageIcon(Inicio_Inventario.class.getResource("/paquetito/Imagenes/Inicio_Empleado_I.jpg")));
 		Inicio_Empleado_Inventario.setBounds(0, 0, 1300, 731);
 		contentPane.add(Inicio_Empleado_Inventario);
-
-		Ingresar.addActionListener(new ActionListener() {
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
-				// Validar el usuario aquí
-				String usuario = ID.getText();
-				String contrasena = new String(Contraseña.getPassword());
-
-				if (usuario.equals("bodega") && contrasena.equals("bodega123")) {
-					// Si el usuario y contraseña son correctos para bodega, redirigir a la ventana de actividades de empleado
-					Actividades_Empleado newframe = new Actividades_Empleado();
-					newframe.setVisible(true);
-					dispose(); // Cierra la ventana actual
-				} else {
-					// Muestra una ventana de "Usuario no válido"
-					JOptionPane.showMessageDialog(null, "Usuario no válido", "Error", JOptionPane.ERROR_MESSAGE);
-				}
-			}
-		});
+		
+		
 		
 		
 		

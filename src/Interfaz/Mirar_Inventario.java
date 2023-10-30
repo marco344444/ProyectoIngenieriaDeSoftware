@@ -1,17 +1,10 @@
 package Interfaz;
 
-import java.awt.EventQueue;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
 
 public class Mirar_Inventario extends JFrame {
 
@@ -44,12 +37,11 @@ public class Mirar_Inventario extends JFrame {
         Atras.setBorder(null);
         Atras.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
-                Actvidades_Admin newframe = new Actvidades_Admin();
+                Interfaz.Actividades_Empleado newframe = new Actividades_Empleado();
                 newframe.setVisible(true);
                 dispose();
             }
         });
-
         Atras.setIcon(new ImageIcon(Mirar_Inventario.class.getResource("/paquetito/Botones/Atrás.jpg")));
         Atras.setBounds(10, 24, 81, 23);
         contentPane.add(Atras);

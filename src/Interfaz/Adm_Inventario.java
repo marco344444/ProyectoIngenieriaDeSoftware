@@ -1,17 +1,10 @@
 package Interfaz;
 
-import java.awt.EventQueue;
-import java.awt.event.ActionListener;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JTextField;
-import java.awt.Color;
+import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class Adm_Inventario extends JFrame {
@@ -65,7 +58,7 @@ public class Adm_Inventario extends JFrame {
 		Atrás.setBounds(10, 24, 81, 23);
 		contentPane.add(Atrás);
 		Atrás.addActionListener(new ActionListener() {
-			public void actionPerformed(java.awt.event.ActionEvent evt) {
+			public void actionPerformed(ActionEvent evt) {
 				Actividades_Empleado newframe = new Actividades_Empleado();
 				newframe.setVisible(true);
 				dispose();

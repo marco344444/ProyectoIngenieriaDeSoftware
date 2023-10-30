@@ -1,14 +1,9 @@
 package Interfaz;
-import java.awt.EventQueue;
-import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JTextArea;
+import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class Generar_Reporte extends JFrame {
 

@@ -1,15 +1,9 @@
 package Interfaz;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
+import java.awt.*;
 import java.awt.event.ActionListener;
-import javax.swing.JTextField;
 
 public class Empleados extends JFrame {
 
@@ -52,7 +46,7 @@ public class Empleados extends JFrame {
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-
+		
 		JButton Atrás = new JButton("");
 		Atrás.setBorder(null);
 		Atrás.setIcon(new ImageIcon(Empleados.class.getResource("/paquetito/Botones/Atrás.jpg")));
@@ -61,79 +55,79 @@ public class Empleados extends JFrame {
 				Actvidades_Admin newframe = new Actvidades_Admin();
 				newframe.setVisible(true);
 				dispose();
-
+				
 			}
 		});
 		Atrás.setBounds(10, 24, 81, 23);
 		contentPane.add(Atrás);
-
+		
 		Buscar = new JTextField();
 		Buscar.setBorder(null);
 		Buscar.setBounds(56, 176, 1039, 39);
 		contentPane.add(Buscar);
 		Buscar.setColumns(10);
-
+		
 		Nombre = new JTextField();
-		Nombre.setBounds(56, 343, 297, 39);
+		Nombre.setBounds(56, 343, 229, 39);
 		contentPane.add(Nombre);
 		Nombre.setColumns(10);
-
+		
 		Cedula = new JTextField();
-		Cedula.setBounds(363, 343, 204, 39);
+		Cedula.setBounds(295, 343, 146, 39);
 		contentPane.add(Cedula);
 		Cedula.setColumns(10);
-
+		
 		Edad = new JTextField();
-		Edad.setBounds(602, 343, 99, 39);
+		Edad.setBounds(451, 343, 190, 39);
 		contentPane.add(Edad);
 		Edad.setColumns(10);
-
+		
 		Genero = new JTextField();
-		Genero.setBounds(746, 343, 113, 39);
+		Genero.setBounds(652, 343, 236, 39);
 		contentPane.add(Genero);
 		Genero.setColumns(10);
-
+		
 		Puesto_De_Trabajo = new JTextField();
 		Puesto_De_Trabajo.setColumns(10);
 		Puesto_De_Trabajo.setBounds(947, 343, 297, 39);
 		contentPane.add(Puesto_De_Trabajo);
-
+		
 		BotonBuscar = new JButton("");
 		BotonBuscar.setBorder(null);
 		BotonBuscar.setIcon(new ImageIcon(Empleados.class.getResource("/paquetito/Botones/Buscar.jpg")));
 		BotonBuscar.setBounds(1132, 162, 101, 44);
 		contentPane.add(BotonBuscar);
-
+		
 
 		Eliminar_Usuario = new JButton("");
 		Eliminar_Usuario.setBorder(null);
 		Eliminar_Usuario.setIcon(new ImageIcon(Empleados.class.getResource("/paquetito/Botones/Eliminar_Usuario.jpg")));
 		Eliminar_Usuario.setBounds(843, 583, 407, 38);
 		contentPane.add(Eliminar_Usuario);
-
+		
 
 		Añadir_Usuario = new JButton("");
 		Añadir_Usuario.setBorder(null);
 		Añadir_Usuario.setIcon(new ImageIcon(Empleados.class.getResource("/paquetito/Botones/Añadir_Usuario.jpg")));
 		Añadir_Usuario.setBounds(389, 580, 404, 41);
 		contentPane.add(Añadir_Usuario);
-
+		
 		JLabel Empleados = new JLabel("");
 		Empleados.setIcon(new ImageIcon(Empleados.class.getResource("/paquetito/Imagenes/Empleados.jpg")));
 		Empleados.setBounds(0, 0, 1300, 731);
 		contentPane.add(Empleados);
-
-
-
-
-
-
-
-
-
-
-
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

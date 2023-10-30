@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="completamente acoplada la interfaz :D">
-      <change afterPath="$PROJECT_DIR$/src/base_de_datos_union/PruebaConexionClientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_10_12_52_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_10_12_52__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a95c056d-c610-438e-af3e-db28cc3c7fd6" name="Changes" comment="eliminacion de base de datos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +56,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Devoluciones">
+  <component name="RunManager" selected="Application.inicio">
     <configuration name="Act_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interfaz.Act_Inventario" />
       <module name="ProyectoIngenieriaDeSoftware" />
@@ -74,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Adm_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Adm_Inventario" />
+    <configuration name="Actvidades_Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x1.Actvidades_Admin" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interfaz.*" />
+          <option name="PATTERN" value="x1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Empleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaz.Empleados" />
+    <configuration name="inicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.inicio" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaConexionClientes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base_de_datos_union.PruebaConexionClientes" />
+    <configuration name="x1.Act_Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x1.Act_Inventario" />
       <module name="ProyectoIngenieriaDeSoftware" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base_de_datos_union.*" />
+          <option name="PATTERN" value="x1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Devoluciones" />
-        <item itemvalue="Application.Empleados" />
-        <item itemvalue="Application.Adm_Inventario" />
+        <item itemvalue="Application.inicio" />
         <item itemvalue="Application.Act_Inventario" />
-        <item itemvalue="Application.PruebaConexionClientes" />
+        <item itemvalue="Application.Actvidades_Admin" />
+        <item itemvalue="Application.x1.Act_Inventario" />
+        <item itemvalue="Application.Devoluciones" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698162847728</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="eliminacion de base de datos">
+      <created>1698645626099</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698645626099</updated>
+    </task>
+    <task id="LOCAL-00013" summary="eliminacion de base de datos">
+      <created>1698645648298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698645648298</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +254,7 @@
     <MESSAGE value="acoplada toda la interfaz de admin, falta corregir un error con la interfaz de mostrar inventario, pero de resto gud" />
     <MESSAGE value="se arregla el error en el boton de generar factura." />
     <MESSAGE value="completamente acoplada la interfaz :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="completamente acoplada la interfaz :D" />
+    <MESSAGE value="eliminacion de base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="eliminacion de base de datos" />
   </component>
 </project>

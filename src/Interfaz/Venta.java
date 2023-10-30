@@ -1,20 +1,13 @@
 package Interfaz;
+
 import Interfaz.Actividades_Empleado_venta;
 
-import java.awt.EventQueue;
-import java.awt.event.ActionListener;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
+import javax.swing.*;
 import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JTextField;
-import javax.swing.JTextArea;
+import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Venta extends JFrame {
 
@@ -145,20 +138,16 @@ public class Venta extends JFrame {
         JScrollPane productoScrollPane = new JScrollPane(Producto); // Agregado
         productoScrollPane.setBounds(106, 293, 406, 170); // Agregado
         contentPane.add(productoScrollPane); // Agregado
-
+        
         textArea = new JTextArea();
         textArea.setBounds(126, 512, 608, 76);
         contentPane.add(textArea);
-
+        
         Generar_Venta = new JButton("New button");
         Generar_Venta.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                Factura facturaFrame = new Factura();
-                facturaFrame.setVisible(true);
-                dispose();
-            }
+        	public void actionPerformed(ActionEvent e) {
+        	}
         });
-
         Generar_Venta.setBorder(null);
         Generar_Venta.setIcon(new ImageIcon(Venta.class.getResource("/paquetito/Botones/Generarr_Factura_Electronica.jpg")));
         Generar_Venta.setBounds(866, 609, 365, 83);
@@ -169,9 +158,9 @@ public class Venta extends JFrame {
         Venta.setIcon(new ImageIcon(Venta.class.getResource("/paquetito/Imagenes/Venta.jpg")));
         Venta.setBounds(0, 0, 1300, 731);
         contentPane.add(Venta);
-
-
-
-
+        
+      
+        
+        
     }
 }
